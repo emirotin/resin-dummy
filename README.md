@@ -1,11 +1,8 @@
-# Resin.io -- Simple text-to-speech demo
+# Resin.io -- Dummy app
 
 ## How it works
 
-This demo uses Google's Text-To-Speech endpoint to get an MP3 audio stream of the supplied text.
-Then it uses the `node-lame` module to decode the MP3 stream to raw audio and finally
-passes the raw audio stream to `node-speaker` which plays it using the RaspberryPi's
-soundcard.
+Runs forever, suitable for keeping the app container running.
 
 ## How to use
 
